@@ -30,11 +30,11 @@ exports.config = {
   hooks: [],
   gherkin: {
     features: './features/*.feature',
-    steps: ['./step_definitions/steps.js']
+    stepDefinitions: ['./step_definitions/*.js']
   },
   plugins: {
     screenshotOnFail: {
-      enabled: true
+      enabled: false
     },
     tryTo: {
       enabled: true

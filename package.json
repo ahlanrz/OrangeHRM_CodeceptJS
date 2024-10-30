@@ -11,6 +11,8 @@
   "description": "",
   "devDependencies": {
     "codeceptjs": "^3.6.7",
-    "puppeteer": "^23.6.0"
+    "puppeteer": "^23.6.0",
+    "@cucumber/cucumber": "^7.3.1",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.1"
   }
 }

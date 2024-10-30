@@ -21,4 +21,5 @@ When('I click on the login button', () => {
 Then('I should see the dashboard page', () => {
   I.wait(5)
   I.see('Dashboard');
+  I.saveScreenshot('loginValid.png');
 });
